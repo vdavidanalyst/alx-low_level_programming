@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  *main - Entry point
  *Return: Always 0 (Success)
@@ -9,10 +8,16 @@
 
 int main(void)
 {
-	char love;
+	char low, e, q;
 
-	for (love = 'a'; love <= 'z'; love++)
-		putchar(love);
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
 	putchar('\n');
 	return (0);
 }
