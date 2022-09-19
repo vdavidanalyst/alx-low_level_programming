@@ -5,8 +5,7 @@
  *
  *@s: string to evaluate
  *Return: the length of the string
- *
-*/
+ */
 
 int _strlen(char *s)
 {
@@ -17,5 +16,6 @@ int _strlen(char *s)
 	while (s[i] != '\0')
 	{
 		i++;
-	}return (i);
+	}
+	return (i);
 }
