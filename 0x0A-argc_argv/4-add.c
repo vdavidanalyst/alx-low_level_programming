@@ -65,10 +65,12 @@ int main(int argc, char *argv[])
 		}
 	}
 	for (k = 1; k < argc; k++)
-		num = _atoi(argv[k]);
-	if (num >= 0)
 	{
-		sum += num;
+		num = _atoi(argv[k]);
+		if (num >= 0)
+		{
+			sum += num;
+		}
 	}
 	printf("%d\n", sum);
 	return (0);
