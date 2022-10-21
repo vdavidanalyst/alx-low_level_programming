@@ -1,4 +1,4 @@
-#singly linked lists
+# singly linked lists
 
 # Alx Learning Objectives
 
